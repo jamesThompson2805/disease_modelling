@@ -121,3 +121,5 @@ class Window:
             pygame.draw.rect(self.__SCREEN,fade_col,(0,0,self._wh[0],self._wh[1]))
             pygame.display.flip()
             step+=1
+            
+            
