@@ -239,7 +239,7 @@ class Builder(Display):
             if len(saveFileName)==0:
                 pass
             else:
-                savefile = open("save/"+saveFileName+".txt", "w")
+                savefile = open("saves/"+saveFileName+".txt", "w")
                 savefile.write(self.save_string)
                 savefile.close()
 
@@ -249,7 +249,7 @@ class Builder(Display):
             if len(loadFileName)==0:
                 pass
             else:
-                loadfile = open("save/"+loadFileName+".txt", "r")
+                loadfile = open("saves/"+loadFileName+".txt", "r")
                 loadtext = loadfile.read()
                 if loadtext == "":
                     self.errorpopup.errormessage="Invalid file"

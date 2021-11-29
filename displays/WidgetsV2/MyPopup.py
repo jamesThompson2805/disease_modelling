@@ -107,7 +107,7 @@ class SavePopup(Popup):
 
         savetext = MySlidingText.SlidingTexts(
             self.widget_screen,(10,30),180,self._back_col,
-            ["Enter filename of save (+ .txt)"],20,[self._back_col],
+            ["Enter filename of save"],20,[self._back_col],
             autodraw=False,
         autoclick=False
         )
@@ -149,7 +149,7 @@ class LoadPopup(Popup):
         super().__init__(SCREEN, pos, WH, back_col, screen_col, title="Load")
         loadtext = MySlidingText.SlidingTexts(
             self.widget_screen,(10,30),180,self._back_col,
-            ["Enter filename to load (+ .txt)"],20,[self._back_col],
+            ["Enter filename to load"],20,[self._back_col],
             autodraw=False,autoclick=False
         )
         self.popup_widgets.append(loadtext)

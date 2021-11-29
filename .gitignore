@@ -2,5 +2,6 @@
 /A flood fill
 /A pathfinder
 /A screens model
-/DefNotGitKey
-/DefNotGitKey.pub
+
+run.sh
+*pyc
